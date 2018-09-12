@@ -331,8 +331,8 @@ class Wp_Expenses_Admin {
                     case 'plane-tickets':
                         $totals['Plane Tickets'] += $item['expense-amount'];
                         break;
-                    case 'reciept':
-                        $totals['Reciept'] += $item['expense-amount'];
+                    case 'receipt':
+                        $totals['Receipt'] += $item['expense-amount'];
                         break;
                     case 'food-ent':
                         $totals['Food/Ent'] += $item['expense-amount'];
@@ -354,8 +354,8 @@ class Wp_Expenses_Admin {
                 if ($item['Plane Tickets']) {
                     $totals['Plane Tickets'] += $item['Plane Tickets'];
                 }
-                if ($item['Reciept']) {
-                    $totals['Reciept'] += $item['Reciept'];
+                if ($item['Receipt']) {
+                    $totals['Receipt'] += $item['Receipt'];
                 }
                 if ($item['Food/Ent']) {
                     $totals['Food/Ent'] += $item['Food/Ent'];
@@ -761,7 +761,7 @@ class Wp_Expenses_Admin {
                     echo '<option value="mileage"' . selected( $line_item['expense-type'], 'mileage' ) . '>' . __('Mileage', $this->plugin_name) . '</option>';
                     echo '<option value="hotel"' . selected( $line_item['expense-type'], 'hotel' ) . '>' . __('Hotel', $this->plugin_name) . '</option>';
                     echo '<option value="plane-tickets"' . selected( $line_item['expense-type'], 'plane-tickets' ) . '>' . __('Plane Tickets', $this->plugin_name) .'</option>';
-                    echo '<option value="reciept"' . selected( $line_item['expense-type'], 'reciept' ) . '>' . __('Reciept', $this->plugin_name) .'</option>';
+                    echo '<option value="receipt"' . selected( $line_item['expense-type'], 'receipt' ) . '>' . __('Receipt', $this->plugin_name) .'</option>';
                     echo '<option value="food-ent"' . selected( $line_item['expense-type'], 'food-ent' ) . '>' .  __('Food/Ent', $this->plugin_name) .'</option>';
                     echo '<option value="parking"' . selected( $line_item['expense-type'], 'parking' ) . '>' . __('Parking', $this->plugin_name) . '</option>';
                     echo '</select>';
@@ -785,7 +785,7 @@ class Wp_Expenses_Admin {
                 echo '<option value="mileage">' .  __('Mileage', $this->plugin_name) . '</option>';
                 echo '<option value="hotel">' . __('Hotel', $this->plugin_name) . '</option>';
                 echo '<option value="plane-tickets">' . __('Plane Tickets', $this->plugin_name) .'</option>';
-                echo '<option value="reciept">' . __('Reciept', $this->plugin_name) .'</option>';
+                echo '<option value="receipt">' . __('Receipt', $this->plugin_name) .'</option>';
                 echo '<option value="food-ent">' . __('Food/Ent', $this->plugin_name) . '</option>';
                 echo '<option value="parking">' . __('Parking', $this->plugin_name) . '</option>';
                 echo '</select>';

@@ -15,7 +15,7 @@
  * Plugin Name:       Expenses
  * Plugin URI:        https://endif.media
  * Description:       Collect and manage employee expenses on your WordPress site.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Ethan Allen
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
