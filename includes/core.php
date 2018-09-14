@@ -57,8 +57,13 @@ class Wp_Expenses {
      */
     public function __construct() {
 
+        if ( defined( 'WP_EXPENSES_VERSION' ) ) {
+            $this->version = WP_EXPENSES_VERSION;
+        } else {
+            $this->version = '1.0.0';
+        }
+
         $this->plugin_name = 'wp-expenses';
-        $this->version = '1.0.1';
 
         $this->load_dependencies();
         $this->set_locale();

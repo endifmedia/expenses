@@ -44,5 +44,8 @@ directory take precedence. For example, `/assets/screenshot-1.png` would win ove
 
 == Changelog ==
 
+= 1.2.0 =
+* [fix] reports not displaying receipt expense type - typo
+
 = 1.0.1 =
 * Initial release
