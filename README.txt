@@ -2,7 +2,7 @@
 Contributors: ENDif Media
 Donate link: https://endif.media
 Tags: expense, data collection, users, business, finances
-Requires at least: 4.3
+Requires at least: 4.7
 Tested up to: 4.9.8
 Stable tag: trunk
 License: GPLv2 or later
